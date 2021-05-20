@@ -35,6 +35,11 @@
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+
+					<systemPropertyVariables>
+						<browser>${browser} </browser>
+					</systemPropertyVariables>
+
 				</configuration>
 			</plugin>
 			<plugin>

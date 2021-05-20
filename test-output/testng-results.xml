@@ -1,49 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="InetBanking" duration-ms="32139" started-at="2021-05-19T14:28:52Z" finished-at="2021-05-19T14:29:24Z">
+  <suite name="InetBanking" duration-ms="228" started-at="2021-05-20T18:24:27Z" finished-at="2021-05-20T18:24:27Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="32139" started-at="2021-05-19T14:28:52Z" finished-at="2021-05-19T14:29:24Z">
+    <test name="BankingApp Test" duration-ms="228" started-at="2021-05-20T18:24:27Z" finished-at="2021-05-20T18:24:27Z">
       <class name="com.iNetBanking.TestCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.iNetBanking.TestCases.TC_LoginTest_001@343f4d3d]" name="setup" is-config="true" duration-ms="5513" started-at="2021-05-19T19:58:52Z" finished-at="2021-05-19T19:58:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.iNetBanking.TestCases.TC_LoginTest_001@42e26948]" name="setup" is-config="true" duration-ms="0" started-at="2021-05-20T23:54:27Z" finished-at="2021-05-20T23:54:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\sample\iNetBanking\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\sample\iNetBanking\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.iNetBanking.TestCases.TC_LoginTest_001@343f4d3d]" name="loginTest" duration-ms="2070" started-at="2021-05-19T19:58:57Z" finished-at="2021-05-19T19:58:59Z">
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.iNetBanking.TestCases.TC_LoginTest_001@42e26948]" name="loginTest" duration-ms="0" started-at="2021-05-20T23:54:27Z" finished-at="2021-05-20T23:54:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\sample\iNetBanking\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\sample\iNetBanking\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.TestCases.TC_LoginTest_001@343f4d3d]" name="tearDown" is-config="true" duration-ms="1150" started-at="2021-05-19T19:58:59Z" finished-at="2021-05-19T19:59:01Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.iNetBanking.TestCases.TC_LoginTest_001@42e26948]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-20T23:54:27Z" finished-at="2021-05-20T23:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.iNetBanking.TestCases.TC_LoginTest_001 -->
       <class name="com.iNetBanking.TestCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.iNetBanking.TestCases.TC_AddCustomerTest_003@53b32d7]" name="setup" is-config="true" duration-ms="13061" started-at="2021-05-19T19:59:01Z" finished-at="2021-05-19T19:59:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.iNetBanking.TestCases.TC_AddCustomerTest_003@57baeedf]" name="setup" is-config="true" duration-ms="0" started-at="2021-05-20T23:54:27Z" finished-at="2021-05-20T23:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.iNetBanking.TestCases.TC_AddCustomerTest_003@53b32d7]" name="addNewCustomer" duration-ms="9381" started-at="2021-05-19T19:59:14Z" finished-at="2021-05-19T19:59:23Z">
+        <test-method status="SKIP" signature="addNewCustomer()[pri:0, instance:com.iNetBanking.TestCases.TC_AddCustomerTest_003@57baeedf]" name="addNewCustomer" duration-ms="0" started-at="2021-05-20T23:54:27Z" finished-at="2021-05-20T23:54:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\sample\iNetBanking\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\sample\iNetBanking\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.TestCases.TC_AddCustomerTest_003@53b32d7]" name="tearDown" is-config="true" duration-ms="730" started-at="2021-05-19T19:59:23Z" finished-at="2021-05-19T19:59:24Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.iNetBanking.TestCases.TC_AddCustomerTest_003@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-20T23:54:27Z" finished-at="2021-05-20T23:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
